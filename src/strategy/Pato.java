@@ -1,12 +1,16 @@
 package strategy;
 
 public abstract class Pato {
-	public static void quaquar(){
-		
+	Voar voador;
+	Quackaar quackador;
+	
+	public void executarQuack(){
+		quackador.quackar();
 	}
-	public static void nadar(){
-		
+	public void executarVoar(){
+		voador.voar();
 	}
+	
 	public abstract void mostrar(){
 		
 	}

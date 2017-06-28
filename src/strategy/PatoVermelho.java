@@ -1,6 +1,6 @@
 package strategy;
 
-public class PatoVermelho {
+public class PatoVermelho extends Pato{
 	public static void mostrar(){
 		
 	}
