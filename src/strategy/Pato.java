@@ -2,7 +2,7 @@ package strategy;
 
 public abstract class Pato {
 	Voar voador;
-	Quackaar quackador;
+	Quackar quackador;
 	
 	public void executarQuack(){
 		quackador.quackar();
@@ -13,5 +13,8 @@ public abstract class Pato {
 	
 	public abstract void mostrar(){
 		
+	}
+	public void nadar(){
+		System.out.println("Todoso os patos nadam, até os de madeira!");
 	}
 }

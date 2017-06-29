@@ -1,7 +1,7 @@
 package strategy;
 
-public class FicarMudo implements Quackar {
+public class FicarMudo implements Quackar{
 	public void quack(){
-		System.out.printli(".......");
+		System.out.println(".......");
 	}
 }

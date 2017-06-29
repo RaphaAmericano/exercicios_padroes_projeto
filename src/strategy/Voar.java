@@ -1,6 +1,8 @@
 package strategy;
 
 public interface Voar {
-	public void voar();
-	System.out.printl("Voou!");
+	public void voar(Comportamento cv){
+		voador = cv;
+		System.out.printl("Voou!");	
+	}
 }

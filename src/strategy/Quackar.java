@@ -1,5 +1,7 @@
 package strategy;
 
 public interface Quackar {
-	public void quackar();
+	public void Quackar( Quackar cq){
+		quackador = cq;
+	}
 }
