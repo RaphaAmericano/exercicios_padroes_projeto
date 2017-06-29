@@ -1,0 +1,1 @@
+# Padrão de Projeto Strategy
