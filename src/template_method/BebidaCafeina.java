@@ -6,6 +6,7 @@ public abstract class BebidaCafeina {
 		misturarProduto();
 		colocarNaXicara();
 		adicionarCondimentos();
+		gancho();
 	}
 	abstract void misturarProduto();
 	abstract void adicionarCondimentos();
@@ -15,5 +16,8 @@ public abstract class BebidaCafeina {
 	}
 	public void colocarNaXicara(){
 		System.out.println("Colocando na xícara");
+	}
+	void gancho(){
+		
 	}
 }

@@ -27,4 +27,7 @@ public class Cafe extends BebidaCafeina{
 	public void adicionarAcucarLeite(){
 		
 	}
+	public void gancho(){
+		System.out.println("Funcinando");
+	}
 }
