@@ -1,4 +1,5 @@
 /bin/
+/src/state/Class_Diagram_state.asta
 .classpath
 .project
 *package-info.java
