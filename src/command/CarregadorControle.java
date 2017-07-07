@@ -1,5 +1,7 @@
 package command;
 
+import java.util.ResourceBundle.Control;
+
 public class CarregadorControle {
 
 	public static void main(String[] args) {
@@ -24,5 +26,6 @@ public class CarregadorControle {
 		
 		controle.botaoOnFoiPressionado(0);
 		controle.botaoOffFoiPressionado(0);
+		controle.botaoUndoPressionado();
 	}
 }

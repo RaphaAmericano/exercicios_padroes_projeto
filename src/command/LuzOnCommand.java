@@ -8,4 +8,7 @@ public class LuzOnCommand implements Command{
 	public void executar(){
 		luz.on();
 	}
+	public void undo(){
+		luz.off();
+	}
 }
