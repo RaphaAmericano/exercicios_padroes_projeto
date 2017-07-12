@@ -21,25 +21,26 @@ public class Lagoa {
 		
 		peruAdapter.quackar();
 		peruAdapter.voar();
-	}
-	//Iterator
-	
-	List<String> lista = new ArrayList<String>();
-	lista.add("Strategy");
-	lista.add("Observer");
-	lista.add("Decorator");
-	
-	for( Iterator iterator = list.iterator(); iterator.hasNext() ){
-		String string = (String) iterator.next();
-		System.out.println("Lista:" + string);
-	}
-	Set<String> set = new HashSet<String>();
-	set.add("Strategy");
-	set.add("Observer");
-	set.add("Decoratot");
-	
-	for( Iterator iterator = set.iterator(); iterator.hasNext();){
-		String string = ( String ) iterator.next();
-		Sytem.out.println("Set:" + String);
+		
+		//Iterator
+		
+		List<String> lista = new ArrayList<String>();
+		lista.add("Strategy");
+		lista.add("Observer");
+		lista.add("Decorator");
+		
+		for( Iterator iterator = list.iterator(); iterator.hasNext() ){
+			String string = (String) iterator.next();
+			System.out.println("Lista:" + string);
+		}
+		Set<String> set = new HashSet<String>();
+		set.add("Strategy");
+		set.add("Observer");
+		set.add("Decoratot");
+		
+		for( Iterator iterator = set.iterator(); iterator.hasNext();){
+			String string = ( String ) iterator.next();
+			System.out.println("Set:" + String);
+		}
 	}
 }

@@ -10,4 +10,7 @@ public class SomOnComCdCommand implements Command{
 		som.setCd();
 		som.setVolume(11);
 	}
+	public void undo(){
+		som.off();
+	}
 }
